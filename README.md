@@ -24,7 +24,7 @@ visualizations.
 
 ### 1. Membership Duration
 
--   Added column **Membership_Duration_Months**\
+-   Added column **Membership_Duration_Months**
 
 -   Formula:
 
@@ -34,7 +34,7 @@ visualizations.
 
 ### 2. Referral Impact
 
--   Created **Referred** column (Yes/No based on `Referred_By`)\
+-   Created **Referred** column (Yes/No based on `Referred_By`)
 -   Pivot table to compare **average Monthly Fee** for referred vs
     non-referred members
 
@@ -46,31 +46,31 @@ visualizations.
 
 -   Summarized revenue by:
 
-    -   Premium members\
-    -   Family membership\
+    -   Premium members
+    -   Family membership
     -   City-wise distribution
 
 ### 4. Low Engagement Members
 
 -   Conditional Formatting rule: highlight members with
-    -   Attendance `< 8`\
-    -   AND Membership_Duration_Months `>= 6`\
+    -   Attendance `< 8`
+    -   AND Membership_Duration_Months `>= 6`
 -   Flags long-term but inactive users
 
 ### 5. Segment Profitability Dashboard
 
 -   Interactive **Pivot Dashboard** built to show:
-    -   Most profitable City + Membership Type + Referral combinations\
-    -   Average revenue per member per segment\
-    -   Insights for marketing & referral strategies\
+    -   Most profitable City + Membership Type + Referral combinations
+    -   Average revenue per member per segment
+    -   Insights for marketing & referral strategies
 -   Features: **Slicers & Pivot Charts** for interactivity
 
 ### 6. Gender & Age Distribution
 
--   Pivot table: **Gender-wise member count per city**\
+-   Pivot table: **Gender-wise member count per city**
 -   Pivot table: **Age distribution across membership types**
-    -   18--30 → Youth\
-    -   31--45 → Adults\
+    -   18--30 → Youth
+    -   31--45 → Adults
     -   46+ → Seniors
 
 ------------------------------------------------------------------------
