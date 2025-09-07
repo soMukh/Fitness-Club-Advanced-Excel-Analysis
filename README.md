@@ -6,10 +6,10 @@ This project is an **advanced Excel-based analysis** for *PowerFit
 India*, a fitness club chain. The goal is to help the management team
 better understand their membership base by analyzing:
 
--   **Retention trends** (how long members stay active)\
--   **Revenue patterns** (by membership type & city)\
--   **Referral performance** (impact of referrals on revenue)\
--   **Attendance behavior** (engagement insights)\
+-   **Retention trends** (how long members stay active)
+-   **Revenue patterns** (by membership type & city)
+-   **Referral performance** (impact of referrals on revenue)
+-   **Attendance behavior** (engagement insights)
 -   **Demographics** (gender & age distributions)
 
 All analysis was conducted in **Excel** using formulas, pivot tables,
