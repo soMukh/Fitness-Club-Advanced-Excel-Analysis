@@ -20,29 +20,6 @@ visualizations.
 
 ------------------------------------------------------------------------
 
-## 📂 Dataset Details
-
--   **Rows:** 3 (sample for demonstration, scalable to larger datasets)\
--   **Columns:** 11
-
-### Column Breakdown
-
-  Column Name       Description
-  ----------------- -------------------------------------
-  Member_ID         Unique member ID (e.g., M001)
-  Full_Name         Member's full name
-  Start_Date        Membership start date
-  End_Date          Membership end date
-  Age               Age in years (19--60)
-  Monthly_Fee       Monthly membership fee (₹)
-  Membership_Type   Basic, Standard, Premium, or Family
-  City              City of residence
-  Gender            Male or Female
-  Attendance        Days visited in a month (1--30)
-  Referred_By       Name of referrer (if any)
-
-------------------------------------------------------------------------
-
 ## 🛠️ Analysis Performed
 
 ### 1. Membership Duration
@@ -76,8 +53,8 @@ visualizations.
 ### 4. Low Engagement Members
 
 -   Conditional Formatting rule: highlight members with
-    -   Attendance `< 10`\
-    -   AND Membership_Duration_Months `>= 12`\
+    -   Attendance `< 8`\
+    -   AND Membership_Duration_Months `>= 6`\
 -   Flags long-term but inactive users
 
 ### 5. Segment Profitability Dashboard
@@ -101,27 +78,4 @@ visualizations.
 ## 📊 Deliverables
 
 -   **Excel Workbook**: Contains all analysis, pivot tables, dashboards,
-    and visualizations.\
--   **PDF Report**: Assignment summary and problem statement.\
--   **README.md**: Project documentation for GitHub.
-
-------------------------------------------------------------------------
-
-## 🚀 How to Use
-
-1.  Open the Excel file provided in this repo.\
-2.  Explore individual sheets for calculations, pivot tables, and
-    conditional formatting.\
-3.  Use the interactive dashboard (with slicers) to drill into specific
-    segments.
-
-------------------------------------------------------------------------
-
-## 📈 Key Insights (Example Outputs)
-
--   Referrals tend to bring higher-paying members.\
--   Premium memberships generate the highest revenue.\
--   Certain cities show stronger attendance trends, ideal for marketing
-    campaigns.\
--   Youth segment dominates in number, while Family memberships provide
-    stable long-term revenue.
+    and visualizations.
